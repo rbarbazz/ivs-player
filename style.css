@@ -1,0 +1,10 @@
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+#video-player {
+    width: 500px;
+}
