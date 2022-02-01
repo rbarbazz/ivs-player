@@ -1,10 +1,21 @@
 main {
     align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     min-height: 70vh;
 }
 
+.row {
+    align-items: center;
+    display: flex;
+    margin: 2rem 0;
+}
+
+.row > * + * {
+    margin-left: 1rem;
+}
+
 #video-player {
-    width: 500px;
+    width: 100%;
 }
